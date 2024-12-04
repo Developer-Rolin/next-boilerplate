@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "src",
     "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -11,10 +12,15 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
+    // "jsx": "preserve",
+    "jsx": "react-jsx",
     "incremental": true,
+    "types": ["node", "jest", "@testing-library/jest-dom"],
+    "typeRoots": ["./node_modules/@types", "./src/@types"],
     "paths": {
       "@/*": ["./src/*"]
+      // Aqui eliminamos a necessidade de importar todo o caminho dos arquivos
+      // podemos importar como /img/logo partindo de ./src/**
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

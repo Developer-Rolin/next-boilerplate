@@ -1,3 +1,17 @@
+<!-- Informções para criar um projeto:
+
+- Configurar typescript
+- Configurar editorconfig - facilita na formatação dos novos arquivos
+- Configurar eslint - O ESLint é uma ferramenta de linting que analisa o código em busca de problemas de qualidade e erros. Ele pode identificar bugs, problemas de estilo e padrões que não seguem as melhores práticas de JavaScript.
+
+- Configurar prettier - O Prettier é um formatador de código. Sua principal função é garantir que o código tenha uma aparência consistente em termos de formatação (como espaçamento, quebras de linha, e uso de ponto e vírgula).
+
+- Configurar Husky - Husky é uma ferramenta que permite gerenciar hooks do Git facilmente, ajudando a garantir que certos scripts ou comandos sejam executados automaticamente em determinados momentos do fluxo de trabalho do Git.
+
+- Configurar Jest e Jest Dom ( matchers )
+- Configurar react testing library
+ -->
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
